@@ -2062,7 +2062,8 @@ html {
 
 @media screen and (max-width: 500px){
 
-  .col-sm{
+ 
+ .col-sm{
     width: 15%;
     padding: 0px;
     margin-left: 10px;

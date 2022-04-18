@@ -28,21 +28,21 @@
 // modal for pop-up form
 
 
-  function openForm() {
-        document.getElementById("popupForm").style.display = "block";
-      }
-      function closeForm() {
-        document.getElementById("popupForm").style.display = "none";
-      }
+//   function openForm() {
+//         document.getElementById("popupForm").style.display = "block";
+//       }
+//       function closeForm() {
+//         document.getElementById("popupForm").style.display = "none";
+//       }
 
-var nameInput = document.getElementById('formContainer').value;
+// var nameInput = document.getElementById('formContainer').value;
 
-console.log(nameInput)
-;
+// console.log(nameInput)
+// ;
 
-function submitInfo(){
-    document.querySelectorAll('submit-info')
-}
+// function submitInfo(){
+//     document.querySelectorAll('submit-info')
+// }
 
 
 

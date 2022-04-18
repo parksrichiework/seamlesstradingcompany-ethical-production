@@ -14,14 +14,15 @@ font-family: 'Prata', serif;
 padding: 0px 300px;
 margin-bottom: 0;
 
+
 }
 
 nav{
 	background: var(--blue);
-	padding-top: 26px;
+	/*padding-top: 26px;*/
 	position: fixed;
 	z-index: 10;
-	margin-top: -30px;
+	margin-top: -70px;
 	margin-bottom: -30px;	
 	width: 100%;
 	left: 0;
@@ -32,22 +33,20 @@ nav{
  	display: inline-block;
  	position: relative;
  	
+ 	
  }
  nav ul li{
  	padding-top: 10px;
  	padding-bottom: 0;
  	width: 60px;
  	font-weight: 60;
-
  }
+
+  
 
 a{
 	text-decoration: none;
 	color: var(--tan);
-}
-
-.main-logo{
-	padding-left: 50px;
 }
 
 header{
@@ -95,7 +94,7 @@ header div h3{
 	transform: translateY(315px);
 	position: inherit;
 	color: #EFEACD;
-	margin-left: 71px;
+	margin-left: 10%;
 	text-shadow: 0 8px 16px 0 rgba(0,0,0,0.19), 0 6px 20px 0 rgba(0,0,0,0.24);
 	font-weight: 90;
 	font-size: 40px;
@@ -247,7 +246,7 @@ header div h3{
 	color: var(--blue);
 	text-align: center;
 	background-color: var(--white);
-	border: solid 2px var(--blue);
+	border: solid var(--blue);
 	/*position: absolute;*/
 	padding: 10px 20px;
 	margin-top: 30px;
@@ -265,102 +264,6 @@ header div h3{
 	background-color: var(--blue);
 }
 
-/*--------------------------------------STYLES FOR POP-UP FORM MODAL------------------------------------------*/
- * {
-        box-sizing: border-box;
-      }
-      .openBtn {
-        display: flex;
-        justify-content: center;     
-      }
-      .openButton {
-			  color: var(--blue);
-				text-align: center;
-				background-color: var(--white);
-				border: solid 2px var(--blue);				
-				padding: 10px 20px;
-				margin-top: 30px;				
-				border-radius: 30px;				
-				transition: 0.2s ease-in-out;				
-        position: relative;
-        cursor: pointer;
-        text-align: center;
-      }
-      .openButton:hover {
-			  color: var(--white);
-				text-align: center;
-				background-color: var(--blue);
-				border: solid var(--blue);				
-				padding: 10px 20px;
-				margin-top: 30px;				
-				border-radius: 30px;				
-				transition: 0.2s ease-in-out;				
-        position: relative;
-        cursor: pointer;
-        text-align: center;
-      }
-
-      .loginPopup {
-        position: relative;
-        text-align: center;
-        width: 100%;
-        transition: 0.5s ease-in;
-      }
-      .formPopup {
-      	color: var(--blue);
-        display: none;
-        position: fixed;
-        left: 45%;
-        top: 5%;
-        transform: translate(-50%, 5%);
-        border: 3px solid var(--blue);
-        z-index: 9;
-        transition: 0.5s ease-in;
-        border-radius: 10px;	
-      }
-      .formContainer {
-        max-width: 300px;
-        padding: 20px;
-        background-color: var(--tan);
-        border-radius: 10px;
-      }
-      .formContainer input[type=text],
-      .formContainer input[type=password] {
-        width: 100%;
-        padding: 15px;
-        margin: 5px 0 20px 0;
-        border: none;
-        border-radius: 100px;
-        background: var(--white);
-      }
-      .formContainer input[type=text]:focus,
-      .formContainer input[type=password]:focus {
-        background-color: var(--white);
-        outline: none;
-      }
-      .formContainer .btn {
-        padding: 12px 20px;
-        border: none;
-        background-color: var(--blue);
-        color: #fff;
-        cursor: pointer;
-        width: 100%;
-        margin-bottom: 15px;
-        opacity: 0.5;
-        border-radius: 100px;
-      }
-   
-
-      .formContainer .cancel {
-        background-color: #cc0000;
-      }
-      .formContainer .btn:hover,
-      .openButton:hover {
-        opacity: 1;
-        transition: 0.2 ease-in-out;
-      }
-
-/*---------------------------- End STYLES FOR POP-UP MODAL-------------------------------------- */
 
 
 /*----------------Footer section--------------------*/
@@ -421,12 +324,8 @@ header div h3{
 
 
 
-
-
-
-
-
-/*--------------------------------------------------PHONE DIMENSIONS-----------------------------------------------*/
+/****************************************************************************8*/
+/*-------------------------PHONE DIMENSIONS----------------------*/
 
 @media screen and (max-width: 500px){
 
@@ -442,7 +341,7 @@ nav{
 	/*padding-top: 26px;*/
 	position: fixed;
 	z-index: 10;
-	margin-top: -30px;
+	margin-top: -70px;
 	margin-bottom: -30px;	
 	width: 100%;
 	height: auto;
@@ -452,10 +351,11 @@ nav{
  nav ul{
  	list-style: none;
  	display: inline-block;
- 	position: relative;
- 	
+ 	position: relative; 	
  }
+
  nav ul li{
+ 
  	padding-top: ;
  	padding-bottom: 0;
  	width: 60px;
@@ -463,6 +363,12 @@ nav{
  	margin-left: 50px;
  	font-size: 15px;
  }
+
+/*nav-li-group-02{
+ 	display: flex;
+ 	justify-self: flex-end;
+ 	margin-right:  0px;
+ }*/
 
  .col-sm .main-logo{
  padding-left: -50px;
@@ -567,135 +473,135 @@ header div h3{
 
 /*<----------products------------>*/
 
-.products-section{
-	margin-top: 100px;
-	color: var(--blue);
-	margin-left: 46px;
+	.products-section{
+		margin-top: 100px;
+		color: var(--blue);
+		margin-left: 46px;
 
-}
-.products-section h2{
-	text-align: center;
-}
+	}
+	.products-section h2{
+		text-align: center;
+	}
 
 
-.list{
-	list-style: square;
-}
+	.list{
+		list-style: square;
+	}
 
-.circle-white{
-  height: 15px;
-  width: 15px;
-  background: var(--white);
-  border: solid 2px var(--blue);
-  border-radius: 50%;
-  display: inline-block;
-}
-.circle-gray{
-  height: 15px;
-  width: 15px;
-  background: var(--gray);
-  border-radius: 50%;
-  display: inline-block;
-}
-.circle-black{
-  height: 15px;
-  width: 15px;
-  background: var(--black);
-  border-radius: 50%;
-  display: inline-block;
-}
-.circle-custom{
-  height: 15px;
-  width: 15px;
-  background: var(--custom);
-  border-radius: 50%;
-  display: inline-block;
-}
+	.circle-white{
+	  height: 15px;
+	  width: 15px;
+	  background: var(--white);
+	  border: solid 2px var(--blue);
+	  border-radius: 50%;
+	  display: inline-block;
+	}
+	.circle-gray{
+	  height: 15px;
+	  width: 15px;
+	  background: var(--gray);
+	  border-radius: 50%;
+	  display: inline-block;
+	}
+	.circle-black{
+	  height: 15px;
+	  width: 15px;
+	  background: var(--black);
+	  border-radius: 50%;
+	  display: inline-block;
+	}
+	.circle-custom{
+	  height: 15px;
+	  width: 15px;
+	  background: var(--custom);
+	  border-radius: 50%;
+	  display: inline-block;
+	}
 
-.standard-tee-color{
-	/*padding: -10px 20px;*/
-	padding-left: 10px;
-	margin: 0px;
-}
+	.standard-tee-color{
+		/*padding: -10px 20px;*/
+		padding-left: 10px;
+		margin: 0px;
+	}
 
-.standard-tee-info{
-	align-content: center;
-}
+	.standard-tee-info{
+		align-content: center;
+	}
 
-.about-products ul li{
-	list-style: none;
-	color: var(--blue);
-	text-align: center;
-}
-.about-products li{
-	font-weight: 10;
-}
+	.about-products ul li{
+		list-style: none;
+		color: var(--blue);
+		text-align: center;
+	}
+	.about-products li{
+		font-weight: 10;
+	}
 
-.product-divider{
-	color: var(--blue);
-	border: solid 1px;
-	margin: 0px 0px 50px;
-}
+	.product-divider{
+		color: var(--blue);
+		border: solid 1px;
+		margin: 0px 0px 50px;
+	}
 
 /*<----------about section------------>*/
 
 
-.about-section{
-	background-image: url(../img/about-bg.png);
-	text-align: center;
-	padding: 40px 0;
-	
-	margin: 70px 0px;
-	color: var(--blue);
-	margin-bottom: 0px;
-	/*margin-left: 0px;*/
-}
+	.about-section{
+		background-image: url(../img/about-bg.png);
+		text-align: center;
+		padding: 40px 0;
+		
+		margin: 70px 0px;
+		color: var(--blue);
+		margin-bottom: 0px;
+		/*margin-left: 0px;*/
+	}
 
-.about-divider{
-	color: var(--blue);
-	border: solid 0.25px;
-	width: 70%;
-	margin-left: 55px;
-	text-align: center;
-}
+	.about-divider{
+		color: var(--blue);
+		border: solid 0.25px;
+		width: 70%;
+		margin-left: 55px;
+		text-align: center;
+	}
 
-.about-section h2{
-	padding-top: 170px;
-	
-}
+	.about-section h2{
+		padding-top: 170px;
+		
+	}
 
-.about-section h3{
-	padding-top: 250px;
+	.about-section h3{
+		padding-top: 250px;
 
-}
+	}
 
-.about-section p{
-	padding: 100px 100px;
-	padding-bottom: 200px;
-}
+	.about-section p{
+		padding: 100px 100px;
+		padding-bottom: 200px;
+	}
 
-.request-quote-button{
-	color: var(--blue);
-	text-align: center;
-	background-color: var(--white);
-	border: solid var(--blue);
-	padding: 10px 20px;
-	margin: 7px 0px 60px 0px;
-	border-radius: 30px;
-	transition: 0.2s ease-in-out;
-	border: solid 2px;
-	
-}
+	.request-quote-button{
+		color: var(--blue);
+		text-align: center;
+		background-color: var(--white);
+		border: solid var(--blue);
+		padding: 10px 20px;
+		margin: 7px 0px 60px 0px;
+		border-radius: 30px;
+		transition: 0.2s ease-in-out;
+		border: solid 2px;
+		
+	}
 
-.request-quote-button:hover {
-	color: var(--tan);
-	/*position: absolute;*/
-	cursor: pointer;
-	background-color: var(--blue);
+	.request-quote-button:hover {
+		color: var(--tan);
+		/*position: absolute;*/
+		cursor: pointer;
+		background-color: var(--blue);
 
 
 
-}
+	}
 
 
 /*--------------------------------------STYLES FOR POP-UP FORM MODAL------------------------------------------*/
@@ -851,3 +757,5 @@ header div h3{
 	color: var(--tan);
 	font-size: 11px;
 }
+
+

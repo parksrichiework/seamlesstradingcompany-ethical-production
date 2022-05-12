@@ -54,10 +54,9 @@ header{
 	width: 100%;
 	margin-top: -25px;
 	position: relative;
-	border-radius: 15px;
-
-	
+	border-radius: 15px;	
 }
+
 header img{
 	width: 100%;
 	z-index: 2;
@@ -209,10 +208,10 @@ header div h3{
 
 
 .about-section{
-	background-image: url(../img/about-bg.png);
+	background-image: url(../img/about-bg01.png);
 	text-align: center;
 	padding: 40px 0;
-	
+	background-size: cover;
 	margin: 70px 0px;
 	color: var(--blue);
 	margin-bottom: 0px;
@@ -233,7 +232,7 @@ header div h3{
 }
 
 .about-section h3{
-	padding-top: 250px;
+	padding-top: 90px;
 
 }
 
@@ -320,6 +319,18 @@ header div h3{
 	background: var(--blue);
 	color: var(--tan);
 	font-size: 11px;
+}
+
+/*icon images*/
+.standardsImg{
+	width: 70%;
+}
+ /*icon container*/
+.iconsRow{
+	margin-top: -80px;
+	align-content: center;
+	padding-bottom: 50px;
+	padding-left: 20px;
 }
 
 
@@ -547,10 +558,11 @@ header div h3{
 
 
 	.about-section{
-		background-image: url(../img/about-bg.png);
+		background-image: url(../img/about-bg01.png);
 		text-align: center;
 		padding: 40px 0;
-		
+		background-size: cover;
+		/*background-repeat: no-repeat;*/
 		margin: 70px 0px;
 		color: var(--blue);
 		margin-bottom: 0px;
@@ -571,7 +583,7 @@ header div h3{
 	}
 
 	.about-section h3{
-		padding-top: 250px;
+		padding-top: 90px;
 
 	}
 
@@ -598,9 +610,6 @@ header div h3{
 		/*position: absolute;*/
 		cursor: pointer;
 		background-color: var(--blue);
-
-
-
 	}
 
 
@@ -757,5 +766,22 @@ header div h3{
 	color: var(--tan);
 	font-size: 11px;
 }
+/************************************************************/
 
+.standardsImg{
+	width: 70%;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.iconsCont{
+	margin-top: -80px;
+	align-content: center;
+}
+
+.iconsRow{
+	align-items: center;
+	padding-top: 60px;
+	padding-left: 0px;
+}
 
